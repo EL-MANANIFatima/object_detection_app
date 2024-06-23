@@ -10,4 +10,5 @@
     <string name="about_us_title">About Us</string>
     <string name="about_us_content">Our app focuses on detecting traditional objects of the old city of Marrakech, Morocco, using augmented reality (AR) technology. It aims to enhance the experience of exploring Marrakech\'s rich cultural heritage by bringing historical artifacts to life through interactive AR displays.</string>
     <string name="about_us_image_desc">Image representing Marrakech</string>
+    <string name="title_activity_camera">CameraActivity</string>
 </resources>

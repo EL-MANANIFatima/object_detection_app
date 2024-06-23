@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ArAuth"
 include(":app")
- 
+include(":openncv")

@@ -1,0 +1,17 @@
+{
+  "installationFolder": "C:\\Users\\Fatima EL\\OneDrive\\Bureau\\iht\\ArAuth\\openncv\\build\\intermediates\\prefab_package\\release\\prefab",
+  "gradlePath": ":openncv",
+  "packageInfo": {
+    "packageName": "openncv",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "C:\\Users\\Fatima EL\\OneDrive\\Bureau\\iht\\ArAuth\\openncv\\native\\jni\\include",
+        "moduleExportLibraries": [],
+        "abis": []
+      }
+    ]
+  }
+}

@@ -2,6 +2,7 @@ package ali.abdou.arauth;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -23,10 +24,15 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.material.navigation.NavigationView;
 
+import org.opencv.android.OpenCVLoader;
+
 import ali.abdou.arauth.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
+
+
+
     TextView userName ;
     Button logout ;
     GoogleSignInClient gClient ;
@@ -42,6 +48,9 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (OpenCVLoader.initLocal()) {
+            Log.i("OpenCV", "OpenCV successfully loaded.");
+        }
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
